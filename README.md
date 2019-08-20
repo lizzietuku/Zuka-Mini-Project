@@ -36,4 +36,4 @@ $git push origin -u youremail@gmail.com
 
 Go to **[bank_marketing_problem.md](https://github.com/CateGitau/Zuka-Mini-Project/blob/master/bank_marketing_problem.md)** to get context on what the data entails.
 
-Create a new Markdown File like the example in **[Log.md file](https://github.com/Python-4-DS/Cohort-1/blob/master/log.md)** in the repository to do your analysis and update your progress.
+Create a new Markdown File like the example shown in **[example.Rmd](https://github.com/CateGitau/Zuka-Mini-Project/blob/master/example.Rmd)** in the repository to do your analysis and update your progress.
