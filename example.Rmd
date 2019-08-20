@@ -1,0 +1,52 @@
+---
+title: "Example"
+author: "Catherine Gitau"
+date: "August 20, 2019"
+output: 
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE,message=FALSE,error=FALSE)
+```
+
+## Team Bla Bla Bla
+### Team Members:
+- Catherine GItau
+- Person 2
+- Person 3
+
+# Bank Telemarketing Data Exploration
+
+```{r}
+#load in the libraries
+library(tidyverse)
+library(DT)
+```
+
+```{r cars}
+# Load in the dataset
+data <- read_csv("data/bank-additional.csv")
+head(data)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# Steps of Data Exploration and Preparation
+1. Identify the type of variables in the data .. if it's the **Predictor(Input)** or the **Target(output) variable**
+2. Identify the data type (either a character or numeric) and category(if it's Categorical or Continuous)
+3. Calculate a set of summary statistics and explain what you find out about the data
+4. Explore the variables and explain your findings using plots and explain why you chose to use that specific type of plot
+5. Check if there are missing values and treat them accordingly
+6. Identify Outliers
+7. Find out which variables are highly correlated using a cor plot
+7. Try and find out if there are more data points we can get from existing data (Feature Engineering)
