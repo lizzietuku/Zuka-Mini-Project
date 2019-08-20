@@ -33,4 +33,4 @@ $git push origin -u youremail@gmail.com
 
 3. **Remember to only make changes to the Fork!**
 
-Create a new Markdown File like the example given **[Log.md file](https://github.com/Python-4-DS/Cohort-1/blob/master/log.md)** in the repository to do your analysis and update your progress.
+Create a new Markdown File like the example in **[Log.md file](https://github.com/Python-4-DS/Cohort-1/blob/master/log.md)** in the repository to do your analysis and update your progress.
