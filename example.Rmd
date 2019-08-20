@@ -46,7 +46,11 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 2. Identify the data type (either a character or numeric) and category(if it's Categorical or Continuous)
 3. Calculate a set of summary statistics and explain what you find out about the data
 4. Explore the variables and explain your findings using plots and explain why you chose to use that specific type of plot
+5. What is the Influence of housing/owning a mortgage credit on the final call result
 5. Check if there are missing values and treat them accordingly
 6. Identify Outliers
 7. Find out which variables are highly correlated using a cor plot
 7. Try and find out if there are more data points we can get from existing data (Feature Engineering)
+
+
+Remember that this project is to test on your skills on R and data exploration thus far. Don't go ahead and do predictions on the data, we are not yet there. However, you are not constrained to the above tasks, go over and beyond as long as it's part of what we have learnt thus far, Looking forward to seeing what you will come up with. Deadline **22nd August 2019**. Each group will present their findings on Thursday evening **22nd August 2019**
